@@ -114,6 +114,8 @@
                 </LinearLayout>
 
                 <LinearLayout
+                    android:id="@+id/informasi_pengguna"
+                    android:clickable="true"
                     android:layout_width="match_parent"
                     android:orientation="horizontal"
                     android:background="@drawable/border"
