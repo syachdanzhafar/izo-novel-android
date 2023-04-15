@@ -19,7 +19,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="210dp"
                 android:scaleType="centerCrop"
-                android:src="@drawable/bg"/>
+                android:src="@drawable/logo2"/>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -64,7 +64,7 @@
                         <TextView
                             android:textColor="@color/text_header"
                             android:layout_width="match_parent"
-                            android:text="Daftr Novel"
+                            android:text="Daftar Novel"
                             android:textSize="16dp"
                             android:textStyle="bold"
                             android:layout_height="wrap_content"/>
@@ -155,6 +155,8 @@
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/favorite"
+                android:clickable="true"
                 android:layout_width="match_parent"
                 android:orientation="vertical"
                 android:padding="10dp"
@@ -198,7 +200,7 @@
                 android:layout_width="match_parent"
                 android:orientation="horizontal"
                 android:paddingTop="20dp"
-                android:background="@color/box_one"
+                android:background="@color/splash_bg"
                 android:paddingBottom="20dp"
                 android:layout_height="wrap_content">
 
@@ -211,12 +213,30 @@
                     <ImageView
                         android:layout_width="match_parent"
                         android:layout_height="150dp"
-                        android:background="@color/purple_700"/>
+                        android:background="@drawable/book1"/>
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:padding="7dp"
-                        android:text="Judul novel ini judul"
+                        android:text="Kunci Jawaban Alam Kubur"
+                        android:textColor="@color/text_sub"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="120dp"
+                    android:layout_marginLeft="20dp"
+                    android:orientation="vertical"
+                    android:background="@drawable/border"
+                    android:layout_height="200dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:background="@drawable/artofwar" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="7dp"
+                        android:text="The Art Of War"
                         android:textColor="@color/text_sub"/>
                 </LinearLayout>
                 <LinearLayout
@@ -228,12 +248,12 @@
                     <ImageView
                         android:layout_width="match_parent"
                         android:layout_height="150dp"
-                        android:background="@color/text_header"/>
+                        android:background="@drawable/tni"/>
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:padding="7dp"
-                        android:text="Judul novel ini judul"
+                        android:text="Langkah-langkah Masup TNI"
                         android:textColor="@color/text_sub"/>
                 </LinearLayout>
                 <LinearLayout
@@ -245,29 +265,12 @@
                     <ImageView
                         android:layout_width="match_parent"
                         android:layout_height="150dp"
-                        android:background="@color/purple_200"/>
+                        android:background="@drawable/logo1"/>
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:padding="7dp"
-                        android:text="Judul novel ini judul"
-                        android:textColor="@color/text_sub"/>
-                </LinearLayout>
-                <LinearLayout
-                    android:layout_width="120dp"
-                    android:layout_marginLeft="20dp"
-                    android:orientation="vertical"
-                    android:background="@drawable/border"
-                    android:layout_height="200dp">
-                    <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="150dp"
-                        android:background="@color/splash_bg"/>
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:padding="7dp"
-                        android:text="Judul novel ini judul"
+                        android:text="Atlas Swannn"
                         android:textColor="@color/text_sub"/>
                 </LinearLayout>
 

@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".Detail">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@color/splash_bg"
+        android:layout_height="200dp">
+        <ImageView
+            android:layout_width="290dp"
+            android:layout_height="190dp"
+            android:src="@drawable/artofwar"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="30dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:text="The Art of War"
+            android:textSize="25dp"
+            android:layout_weight="1"
+            android:textColor="@color/purple_500"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="30dp"
+        android:layout_height="wrap_content" >
+        <TextView
+            android:layout_width="match_parent"
+            android:padding="5dp"
+            android:text="Pengarang"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+            android:background="#E2F8F0"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:padding="5dp"
+            android:text="Sun Tzu"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+            android:background="#E2F8F0"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="30dp"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:padding="5dp"
+            android:text="Penerbit"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+            android:background="#E2F8F0"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:padding="5dp"
+
+            android:text="Unknown"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+            android:background="#E2F8F0"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="30dp"
+        android:layout_height="wrap_content" >
+        <TextView
+            android:layout_width="match_parent"
+            android:padding="5dp"
+            android:text="Tahun Terbit"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+            android:background="#E2F8F0"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:padding="5dp"
+
+            android:text="5th Century BC"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+            android:background="#E2F8F0"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="30dp"
+        android:layout_height="wrap_content" >
+        <TextView
+            android:layout_width="match_parent"
+            android:padding="5dp"
+            android:text="Genre"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+            android:background="#E2F8F0"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:padding="5dp"
+            android:text="Non Fiksi"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+            android:background="#E2F8F0"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:background="#CCF29B"
+                android:src="@drawable/eyes" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#CCF29B"
+                android:padding="5dp"
+                android:text="651k Dibaca"
+                android:textColor="@color/black" />
+            <ImageView
+                android:layout_width="63dp"
+                android:layout_height="match_parent"
+                android:background="#CCF29B"
+                android:src="@drawable/liked" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#CCF29B"
+                android:padding="5dp"
+                android:text="651k Disukai"
+                android:textColor="@color/black" />
+            <ImageView
+                android:layout_width="63dp"
+                android:layout_height="match_parent"
+                android:background="#CCF29B"
+                android:src="@drawable/notif" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#CCF29B"
+                android:padding="5dp"
+                android:text="20k Ulasan"
+                android:textColor="@color/black" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Seorang ahli strategi yang Sementara ahli strategi yang gagal biasanya baru mulai memikirkan cara untuk memenangkan peperangan saat mereka sudah berada di medan perang."
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Petarung yang pandai menghindari pertempuran dengan kemungkinan kalah yang besar, ini untuk memastikan bahwa ia tak pernah dikalahkan."
+                android:textStyle="bold"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:background="#0000bb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Mulai Baca Sekarang"
+                android:textSize="20dp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
