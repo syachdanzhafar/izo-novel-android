@@ -1,0 +1,1 @@
+Nama Asli KTP & Akta = Syachdan Zhafar Shadiq Dj
